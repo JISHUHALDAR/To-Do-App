@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trip To Paris</title>
+    <link rel="stylesheet" href="./adl.css">
+    <link rel="icon" href="./rat.png">
+   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+   </head>
+<body>
+ <div style="float:left; width: 10%; margin-left: 300px;"><hr/></div>
+<div style="float:right; width: 10%; margin-right: 600px;"><hr/></div>
+<h1> Trip to Paris</h1>
+<div class="back">
+    <a href="./todo.html" class=" ut material-icons">back </a> <span class="head2">  Back</span>
+</div> <br> <br> <br> <br> <br> <br>
+    
+<div class="trip"><span class="paris"><br> My Todo List <br></span> 
+    <hr style="width:85%;text-align:right;margin-right:0"> <br> <br> 
+    <span class="complt">completed task</span> <br> <br> 
+    <input type="checkbox"> <span class="pending">Pending task</span>
+    <a href="./aditm.html"  class="material-icons ut" id="jishu"> add </a> </div>
+           
+
+
+
+
+
+
+</body>
+</html>
+
+
+
+
+
+
+.trip{
+    height: 430px;
+    width: 380px;
+    border: 1px solid orange;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 8px 8px 8px black;
+    position: relative;
+    margin: auto;
+    right: 130px;
+}
+.paris{
+    color: orange;
+    font-size: 1.6rem;
+    margin: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.pending{
+    font-size: x-large;
+}
+.complt{
+    color: orange;
+    text-decoration: line-through;
+    font-size: 1.5rem;
+}
+.back{
+    position: absolute;
+    left: 500px;
+}
+.head2{
+    font-weight: lighter;
+    color: gray;
+    font-size: 2rem;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+h1{
+    text-align: center;
+}
+#jishu{
+    position: absolute;
+    left: 680px;
+   bottom: 50px;
+}
+.material-icons{
+   
+    background-color: tomato;
+    
+}
+.ut{
+    color: white;
+    width: 70px;
+    height: 70px; 
+    border-radius: 50%;
+}
+<span>Trip to Paris</span>
+<a class="rad material-icons"href="project2.html">arrow_back</a>
